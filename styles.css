@@ -35,3 +35,24 @@ body {
  cursor: pointer;
     z-index: 10; /* Ensure it's on top */
 }
+
+#hearts-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200vh; /* Set to twice the viewport height for scrolling */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.extra-content {
+    height: 100vh; /* Additional space below the image */
+    width: 100%;
+    background-color: #f0f0f0; /* Just a placeholder color */
+}
