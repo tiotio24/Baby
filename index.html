@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, Baby</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Landing Page -->
+    <div id="landing" class="page">
+        <img src="spooky-background.png" alt="Spooky Background" class="background">
+        <div class="clickable-area" onclick="goToEnvelopePage()"></div>
+    </div>
+
+    <!-- Envelope Page -->
+    <div id="envelopePage" class="page hidden">
+        <img src="envelope-open.png" alt="Open Envelope" class="background">
+    </div>
+
+    <!-- Hearts Page -->
+    <div id="heartsPage" class="page hidden">
+        <img src="hearts.png" alt="Hearts" class="background">
+        <audio id="birthdaySong" src="goodluckbabe.mp3"></audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
