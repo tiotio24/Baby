@@ -55,4 +55,33 @@ body {
     height: 100vh; /* Additional space below the image */
     width: 100%;
     background-color: #f0f0f0; /* Just a placeholder color */
+    /* Styling for extra-content question box */
+    .extra-content {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .extra-content h2 {
+        color: #b30000; /* Matches color theme */
+    }
+    .option {
+        border: 2px solid #333;
+        padding: 10px 20px;
+        margin: 10px auto;
+        width: 200px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    .option.wrong {
+        background-color: #ffdddd; /* Red background for incorrect answer */
+    }
+    .typing-effect {
+        margin-top: 20px;
+        font-size: 1.2em;
+        color: #b30000;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+        width: 0; /* Start hidden */
+        transition: width 0.4s ease; /* Typing animation */
+    }
 }
